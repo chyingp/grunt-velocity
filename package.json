@@ -1,0 +1,43 @@
+{
+  "name": "grunt-velocity",
+  "description": "grunt plugin for velocity compiling.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/casperchen/grunt-velocity",
+  "author": {
+    "name": "chyingp",
+    "email": "chyingp@gmail.com",
+    "url": "http://www.cnblogs.com/chyingp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/casperchen/grunt-velocity.git"
+  },
+  "bugs": {
+    "url": "https://github.com/casperchen/grunt-velocity/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/casperchen/grunt-velocity/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.4"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.4"
+  },
+  "dependencies": {
+    "velocityjs": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
